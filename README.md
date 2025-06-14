@@ -37,7 +37,7 @@ Protocols:  tcp:30333,30334,9000
 ```
 Add chain claim faucets and get RPC:
 
-Add 0G-Galileo-Testnet chain from here: https://docs.0g.ai/run-a-node/testnet-information
+Add 0G-Galileo-Testnet chain from here: https://hub.0g.ai/portfolio/token
 
 Take faucet: https://faucet.0g.ai/
 
