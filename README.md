@@ -183,6 +183,16 @@ Start Service
 sudo systemctl start zgs
 ```
 ---
+## To check ram and storage usage of your vps 
+Storage
+```bash
+df -h
+```
+Ram
+```bash
+free -h
+```
+
 ## Join TG For Updates : https://t.me/Web3Brothers
 
 
