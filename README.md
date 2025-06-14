@@ -155,3 +155,34 @@ Check block & Sync process
 check node status: https://chainscan-galileo.bangcode.id/
 
 View Miner Details: https://storagescan-galileo.0g.ai/miner/YOUREVMADDRESS
+
+---
+## To Stop & Delete your Node
+stop 
+```bash
+sudo systemctl stop zgs
+```
+Delete
+```bash
+sudo systemctl disable zgs
+sudo rm /etc/systemd/system/zgs.service
+rm -rf $HOME/0g-storage-node
+```
+---
+## Restarting node Next day
+reload
+```bash
+sudo systemctl daemon-reload
+```
+Enable 
+```bash
+sudo systemctl enable zgs
+```
+Start Service
+```bash
+sudo systemctl start zgs
+```
+---
+## Join TG For Updates : https://t.me/Web3Brothers
+
+
