@@ -87,12 +87,12 @@ cargo build --release
 
 ##  Step 5: Configure the Node
 
-install screen 
+First Install screen 
 ```bash
 sudo apt-get install screen
 ```
 
-Create new Screen
+Create new Screen session 
 ```bash
 screen -S ognode
 ``` 
