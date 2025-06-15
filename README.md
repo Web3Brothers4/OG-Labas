@@ -53,7 +53,6 @@ SSH into the VM and run:
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y build-essential pkg-config libssl-dev curl clang cmake screen git unzip
 ```
-
 Install Rust:
 
 ```bash
@@ -87,6 +86,16 @@ cargo build --release
 ---
 
 ##  Step 5: Configure the Node
+
+install screen 
+```bash
+sudo apt-get install screen
+```
+
+Create new Screen
+```bash
+screen -S ognode
+``` 
 
 ```bash
 rm -rf $HOME/0g-storage-node/run/config.toml
